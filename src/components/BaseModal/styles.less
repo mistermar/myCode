@@ -1,0 +1,571 @@
+#copyModal {
+  span {
+    padding: 0 !important;
+  }
+}
+
+.addUser.modalsRan {
+  .modal {
+    width: 800px;
+    .closeM {
+      margin-left: 400px;
+    }
+  }
+}
+#transfer {
+  .line {
+    padding-bottom: 0;
+  }
+  h1 {
+    font-family: "SBM-Bold", sans-serif;
+    font-size: 16px;
+    color: #000000;
+  }
+  .half {
+    input[type="text"] {
+      &::placeholder {
+        font-family: "SBM-Light", sans-serif;
+        font-size: 14px;
+        color: #868686;
+      }
+    }
+  }
+}
+
+.medium {
+  font-family: "SBM-Light", sans-serif;
+  color: #000000;
+}
+
+#NoPadd {
+  span {
+    padding: 0;
+  }
+}
+
+#modalPrint {
+  .attendance-modal {
+    margin: 0 auto;
+    width: 300px;
+  }
+}
+
+#btnCanceled,
+#btnSave {
+  min-width: 92px;
+  height: 35px;
+  padding: 0;
+}
+
+.open.modal.deleteRun {
+  .closeM.deleteRun.open{
+    margin-left: 186px;
+  }
+  width: 372px;
+  margin: 0;
+  left: 45%;
+}
+#modalDelBuses {
+  .modal {
+    width: 372px;
+    margin: 0;
+    left: 45%;
+  }
+}
+
+.closeM.EditModalApproval.open {
+  margin: 0 auto;
+  left: 362px;
+}
+
+.delRider {
+  .closeM.delRider.open {
+    margin-left: 187px;
+  }
+  .open.modal.delRider,
+  .modal.open {
+    width: 372px;
+    left: 0;
+    margin: 0 auto;
+  }
+}
+
+.open.modal.ModalClose.open.confirm {
+  width: 372px;
+  left: 0;
+  margin: 0 auto;
+  .buttons {
+    button {
+      width: 92px !important;
+    }
+  }
+  .closeM.ModalClose {
+    left: 72px;
+  }
+}
+
+.open.modal.ModalClose.open.mapZoom {
+  width: 80%;
+  height: 80%;
+  left: 0;
+  margin: 0 auto;
+  .mapCol {
+    height: 100%;
+  }
+
+  .closeM.ModalClose {
+    left: 100%;
+    right: 0;
+    margin: 0;
+  }
+}
+
+.open.modal.EditModalApproval {
+  width: 372px;
+  left: 0;
+  margin: 0 auto;
+}
+
+.open.modal.deleteModal {
+  width: 372px;
+  left: 0;
+  margin: 0 auto;
+}
+.blockInfo {
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  .ant-radio-inner {
+    width: 20px;
+    height: 20px;
+    top: 5px;
+  }
+  .ant-radio-checked::after {
+    border: none;
+  }
+  .ant-radio-checked .ant-radio-inner {
+    border-color: #40b2e8;
+  }
+
+  .ant-radio.ant-radio-checked:hover {
+    border: none;
+  }
+  .ant-radio-checked::after {
+    animation: none !important;
+  }
+  .ant-radio-inner::after {
+    width: 12px;
+    height: 12px;
+    background-color: #40b2e8;
+    border: none;
+  }
+  .titleRun {
+    font-family: "SBM-Bold", sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000000;
+  }
+  b {
+    font-family: "SBM-Bold", sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000000;
+  }
+  label {
+    .ant-radio {
+      position: relative;
+      bottom: 20px;
+    }
+    span {
+      line-height: 20px;
+      display: inline-block;
+      font-family: "SBM-Light", sans-serif;
+      font-size: 14px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      letter-spacing: normal;
+      color: #000000;
+    }
+  }
+}
+
+.modalMap.open.modalsRan {
+  z-index: 500;
+}
+
+.open.modal.ModalAncor {
+  width: 311px;
+  margin: 0 auto;
+  left: 0;
+  & > .closeM{
+    left: 12px;
+  }
+}
+
+.Row {
+  margin-top: 10px;
+}
+
+::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  font-family: "SBM-Medium", sans-serif;
+  font-size: 14px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+.modalsRan {
+
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.75);
+  opacity: 1;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 200;
+
+  .ft {
+    .closeM {
+      left: 70%;
+    }
+  }
+  //overflow: unset;
+  .closeM {
+    width: 31px;
+    height: 31px;
+    border-radius: 31px;
+    position: absolute;
+    right: -41px;
+    top: -31px;
+    z-index: 11;
+    margin-left: 300px;
+    left: 50%;
+    background: url("../../img/close.svg") no-repeat;
+
+    &:hover {
+      cursor: pointer;
+      opacity: 0.7;
+    }
+
+    &.ft {
+      margin-left: 490px;
+      top: 3%;
+    }
+  }
+
+  .half {
+    float: left;
+    width: 50%;
+  }
+  .modalMap.open {
+    z-index: 500;
+    width: 372px;
+    margin: 0 0 0 0;
+    position: absolute;
+    left: 40%;
+    .closeM {
+      right: 0;
+      position: absolute;
+      left: 390px;
+    }
+  }
+
+  .labelLine {
+    font-family: "SBM-Medium", sans-serif;
+    font-size: 12px;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000000;
+  }
+
+  .inputLine {
+    width: 100%;
+    min-height: 35px;
+    border-radius: 2px;
+    background-color: #ffffff;
+    font-family: "SBM-Light", sans-serif;
+    font-size: 14px;
+    border: 1px solid #cdcbcd;
+    color: #868686;
+    padding: 0 0 0 10px;
+  }
+  .inputLineHalf {
+    .inputLine;
+    width: 50%;
+  }
+  .error {
+    .ant-select-selection {
+      border-color: #ed4d49;
+    }
+  }
+  .content {
+    margin-bottom: 15px;
+
+    .error {
+      .ant-select-selection {
+        border-color: #ed4d49;
+      }
+    }
+  }
+
+  .modal {
+    width: 600px;
+    background-color: #fff;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    padding: 15px 12px 12px 12px;
+    margin-left: -300px;
+    margin-bottom: 30px;
+    border-radius: 3px;
+    bottom: auto;
+
+    &.delRider{
+      width: 372px;
+      left: 0;
+      margin: 0 auto;
+      &.closeM{
+        left: 70px;
+      }
+    }
+    .header {
+      span {
+        padding-left: 0 !important;
+      }
+    }
+    &.ft {
+      width: 980px;
+      height: 800px;
+      margin-left: -490px;
+      top: 7%;
+    }
+
+    .font {
+      font-family: "SBM-Medium", sans-serif;
+      color: #000000;
+    }
+    .small {
+      .font();
+      font-family: "SBM-Medium", sans-serif;
+      font-size: 12px;
+    }
+
+    .normal {
+      .font();
+      font-size: 14px;
+    }
+
+    .big {
+      .font();
+      font-family: "SBM-Bold", sans-serif;
+      font-size: 16px;
+    }
+
+    .header {
+      span {
+        font-family: "SBM-Bold", sans-serif;
+        font-size: 18px;
+        color: #3d6aa6;
+        display: block;
+      }
+    }
+    .flexSelectLine {
+      flex-direction: column;
+      display: flex;
+
+      select {
+        height: 35px;
+        border-radius: 2px;
+        background-color: #ffffff;
+        border-color: #cdcbcd;
+      }
+    }
+    .line-header {
+      font-family: "SBM-Bold", sans-serif;
+      font-size: 12px;
+      color: #000000;
+      display: block;
+    }
+    .fontLight {
+      input {
+        font-family: SBM-Light !important;
+      }
+    }
+    .line {
+      width: 100%;
+      height: auto;
+      margin-bottom: 16px;
+
+
+
+      span {
+        font-family: "SBM-Medium", sans-serif;
+        font-size: 12px;
+        color: #000000;
+        display: block;
+      }
+
+      input,input[type='text'],input[type='number']{
+        box-shadow: none;
+        cursor: pointer;
+        border-color: #cdcbcd;
+        background-color: transparent;
+        &::placeholder{
+          color:#868686;
+        }
+      }
+
+      input:hover,input[type='text']:hover,input[type='number']:hover{
+        box-shadow: none;
+        cursor: pointer;
+        border-color: #cdcbcd;
+        background-color: #f8f8f8;
+        &::placeholder{
+          color:#868686;
+        }
+      }
+
+      input:focus,input[type='text']:focus,input[type='number']:focus{
+        box-shadow: none;
+        cursor: pointer;
+        background: transparent;
+        border-color: #3d6aa6;
+        &::placeholder{
+          color:#868686;
+        }
+      }
+
+      input {
+        width: 100%;
+        height: 35px;
+        padding: 0 10px;
+        font-family: "SBM-Medium", sans-serif;
+        font-size: 14px;
+        color: #868686;
+        border-radius: 2px;
+        border: solid 1px #cdcbcd;
+        background-color: #ffffff;
+        line-height: normal;
+        letter-spacing: normal;
+
+        box-shadow: none;
+        &::-webkit-input-placeholder{
+          color: #868686 !important;
+        }
+        border-radius: 2px;
+        border: solid 1px #cdcbcd;
+        background-color: #ffffff;
+        &:hover{
+          border-radius: 2px;
+          border: solid 1px #cdcbcd !important;
+          background-color: #f8f8f8;
+          cursor: pointer;
+        }
+        &:active,&:focus{
+          border-radius: 2px;
+          border: solid 1px #3d6aa6  !important;
+          background-color: #ffffff;
+          box-shadow: none;
+        }
+      }
+      #DatePicker {
+        i {
+          background: url("../../img/sessions.png") no-repeat;
+          background-size: contain;
+          cursor: pointer;
+        }
+      }
+
+      .half {
+        width: 50%;
+      }
+      .half:nth-child(1) {
+        padding-right: 5px;
+      }
+      .half:nth-child(2) {
+        padding-left: 5px;
+      }
+    }
+
+    .center {
+      display: flex;
+      width: 100%;
+      margin-top: 6px;
+    }
+    .buttons {
+      width: 194px;
+      display: flex;
+      justify-content: center;
+      button {
+        margin-right: 5px;
+        margin-left: 5px;
+        height: 36px;
+        width: 92px;
+        border: 0;
+        font-family: "SBM-Medium", sans-serif;
+        font-size: 16px;
+        color: #ffffff;
+        border-radius: 2px;
+      }
+      .cancel {
+        background-color: #a6a6a6;
+        &:hover{
+          background-color: #585858;
+        }
+      }
+      .save {
+        background-color: #f87a03;
+        white-space: pre;
+        &:hover{
+          background-color: #c95500;
+        }
+      }
+
+      .save:disabled {
+        background: #a6a6a6;
+      }
+
+      .print {
+        background-color: #3cb0e7;
+      }
+    }
+
+    .center {
+      justify-content: center;
+    }
+
+    .flex {
+      display: flex;
+    }
+
+    .radio {
+      margin-top: 15px;
+      margin-bottom: 20px;
+      display: flex;
+
+      label {
+        padding-left: unset;
+      }
+    }
+  }
+
+  .AddressLatLon {
+    margin-left: 3px;
+  }
+}
+
+#ModalUploadFile,
+#ModalNewRun {
+  padding: 15px !important;
+}
