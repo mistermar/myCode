@@ -12,7 +12,7 @@ import Loadable from "react-loadable";
 import { createStore, applyMiddleware, combineReducers } from 'src/redux'
 import thunk from "redux-thunk";
 
-import rootReducer from "./src/redux/index";
+import rootReducer from "./redux";
 import { Provider } from "react-redux";
 import ConfigProvider from 'antd/es/config-provider';
 import { log } from "./enhancers/log";
